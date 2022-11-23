@@ -11,12 +11,14 @@ public class ChestScript : MonoBehaviour
         Chest = GetComponent<GameObject>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (WallTorch.litTorchesCount == 3)
         {
             //spawn chest
             Chest.SetActive(true);
+            transform.GetChild(0).gameObject.SetActive(true);
+            transform.GetChild(1).gameObject.SetActive(true);
         }
     }
 }
