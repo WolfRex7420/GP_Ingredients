@@ -7,9 +7,13 @@ public class WallTorch : Interactive
 {
     public static int litTorchesCount = 0;
     public GameObject chest;
+    private void Awake()
+    {
+        chest = GetComponent<GameObject>();
+    }
+
     public override void OnInteraction()
     {
-        chest = GetComponent<GameObject.Chest>();
         //If I want to do the base OnInteraction anyway first
         //
         //Activate light and fire
@@ -22,7 +26,7 @@ public class WallTorch : Interactive
             //Chest = GameObject.FindGameObjectsWithTag("chest");
             //Chest.setActive(true);
 
-            transform.GetComponent<chest>().gameObject.SetActive(true);
+            //transform.GetComponent<chest>().gameObject.SetActive(true);
         }
     }
 }
