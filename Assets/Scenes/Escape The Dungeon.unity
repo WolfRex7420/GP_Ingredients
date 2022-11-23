@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2027536884}
-  m_IndirectSpecularColor: {r: 0.44657665, g: 0.49140924, b: 0.54790205, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465766, g: 0.49140865, b: 0.5479011, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -42335,6 +42335,7 @@ MonoBehaviour:
   onlyOnce: 1
   requiredItem: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
   waitForObject: 1
+  chest: {fileID: 0}
 --- !u!1001 &1780946694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42573,6 +42574,7 @@ MonoBehaviour:
   onlyOnce: 1
   requiredItem: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
   waitForObject: 1
+  chest: {fileID: 0}
 --- !u!1001 &1884304220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42719,7 +42721,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8929589423702217963, guid: 944bff624466e4242a3377fba75ddaf3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929589423702217963, guid: 944bff624466e4242a3377fba75ddaf3, type: 3}
+      propertyPath: m_TagString
+      value: Interactive
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
@@ -47923,6 +47929,7 @@ MonoBehaviour:
   onlyOnce: 1
   requiredItem: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
   waitForObject: 1
+  chest: {fileID: 0}
 --- !u!1 &2027536883
 GameObject:
   m_ObjectHideFlags: 0
