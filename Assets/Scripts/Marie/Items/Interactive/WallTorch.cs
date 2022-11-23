@@ -18,11 +18,7 @@ public class WallTorch : Interactive
         litTorchesCount++;
         if (litTorchesCount ==3)
         {
-            //spawn chest
-            //Chest = GameObject.FindGameObjectsWithTag("chest");
-            //Chest.setActive(true);
-
-            //transform.GetComponent<chest>().gameObject.SetActive(true);
+            
         }
     }
 }
