@@ -6,7 +6,7 @@ using UnityEngine;
 public class WallTorch : Interactive
 {
     public static int litTorchesCount = 0;
-    public GameObject chest;
+    
    
     public override void OnInteraction()
     {
