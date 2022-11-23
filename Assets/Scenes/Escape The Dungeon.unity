@@ -35795,7 +35795,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937158285}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.7
@@ -42369,6 +42369,7 @@ MonoBehaviour:
   onlyOnce: 1
   requiredItem: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
   waitForObject: 1
+  Chest: {fileID: 1887760990}
 --- !u!1001 &1780946694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42607,6 +42608,7 @@ MonoBehaviour:
   onlyOnce: 1
   requiredItem: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
   waitForObject: 1
+  Chest: {fileID: 1887760990}
 --- !u!1001 &1884304220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42685,7 +42687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1002039313208531687, guid: 944bff624466e4242a3377fba75ddaf3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.13
+      value: -0.14
       objectReference: {fileID: 0}
     - target: {fileID: 1002039313208531687, guid: 944bff624466e4242a3377fba75ddaf3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -42753,7 +42755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8929589423702217963, guid: 944bff624466e4242a3377fba75ddaf3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8929589423702217963, guid: 944bff624466e4242a3377fba75ddaf3, type: 3}
       propertyPath: m_TagString
@@ -42775,19 +42777,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8929589423702217963, guid: 944bff624466e4242a3377fba75ddaf3, type: 3}
   m_PrefabInstance: {fileID: 1887760988}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1887760991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887760990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf5f64e6409b10c47b19100785a17584, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Chest: {fileID: 1887760990}
 --- !u!135 &1887760992
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -42796,7 +42785,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887760990}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.7
@@ -47992,6 +47981,7 @@ MonoBehaviour:
   onlyOnce: 1
   requiredItem: {fileID: 11400000, guid: c434aac9fa7a6bc47bdb1182293ad768, type: 2}
   waitForObject: 1
+  Chest: {fileID: 1887760990}
 --- !u!1 &2027536883
 GameObject:
   m_ObjectHideFlags: 0
