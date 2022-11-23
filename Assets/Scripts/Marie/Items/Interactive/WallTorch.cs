@@ -7,11 +7,7 @@ public class WallTorch : Interactive
 {
     public static int litTorchesCount = 0;
     public GameObject chest;
-    private void Awake()
-    {
-        chest = GetComponent<GameObject>();
-    }
-
+   
     public override void OnInteraction()
     {
         //If I want to do the base OnInteraction anyway first
