@@ -13,7 +13,10 @@ public class ChestScript : MonoBehaviour
 
     void Update()
     {
-        //spawn chest
-        Chest.SetActive(true);
+        if (WallTorch.litTorchesCount >= 3)
+        {
+            //spawn chest
+            Chest.SetActive(true);
+        }
     }
 }
