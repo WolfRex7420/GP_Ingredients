@@ -6,10 +6,10 @@ using UnityEngine;
 public class WallTorch : Interactive
 {
     public static int litTorchesCount = 0;
-    
-
+    public GameObject chest;
     public override void OnInteraction()
     {
+        chest = GetComponent<GameObject.Chest>();
         //If I want to do the base OnInteraction anyway first
         //
         //Activate light and fire
@@ -19,8 +19,10 @@ public class WallTorch : Interactive
         if (litTorchesCount ==3)
         {
             //spawn chest
+            //Chest = GameObject.FindGameObjectsWithTag("chest");
             //Chest.setActive(true);
 
+            transform.GetComponent<chest>().gameObject.SetActive(true);
         }
     }
 }
