@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactive : MonoBehaviour
+public class Failed : MonoBehaviour
 {
     public InteractionType interactionType = InteractionType.OpenDoor;
-    
-    public bool onlyOnce = true;
 
-    [Header("Condition")] 
+    public bool onlyOnce = false;
+
+    [Header("Condition")]
     public KeyItemData requiredItem;
 
     public bool waitForObject;
@@ -17,11 +17,8 @@ public class Interactive : MonoBehaviour
     //virtual makes the function changeable in children classes
     public virtual void OnInteraction()
     {
-        if (requiredItem)
-        {
-            GetComponent<Animator>().SetTrigger("DoorOpen");
-        }
         GetComponent<Animator>().SetTrigger("Failed");
-
     }
+
+
 }
