@@ -2,21 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lever : MonoBehaviour
+public class Lever : Interactive
 {
-    public InteractionType interactionType = InteractionType.PushButton;
-
-    public bool onlyOnce = true;
-
-    [Header("Condition")]
-    //public KeyItemData requiredItem;
-
-    public bool waitForObject;
-
+    public GameObject Key_Golden;
     //Basic behaviour for Interactive objects is to trigger an animation
     //virtual makes the function changeable in children classes
-    public virtual void OnInteraction()
+    public override void OnInteraction()
     {
         GetComponent<Animator>().SetTrigger("Switch");
+        Key_Golden.SetActive(true);
     }
 }
