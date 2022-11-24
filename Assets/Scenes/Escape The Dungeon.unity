@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2027536884}
-  m_IndirectSpecularColor: {r: 0.4465766, g: 0.49140865, b: 0.5479011, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657665, g: 0.49140924, b: 0.54790205, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -46156,31 +46156,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.43612385
+      value: 0.47036868
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.55525565
+      value: 0.5356529
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.62407285
+      value: 0.5986852
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.33469427
+      value: -0.36524698
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 70.262
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90.987
+      value: 149.4
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 61.848
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926854604, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_Convex
@@ -46198,8 +46198,7 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Interactive
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1923930166926854604, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
+    m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
 --- !u!4 &1651678383 stripped
@@ -46252,8 +46251,28 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.351744, y: 2.1323714, z: 0.3812114}
-  m_Center: {x: 0.5979674, y: 1.1175506, z: 0.05301829}
+  m_Size: {x: 1.351744, y: 2.1323717, z: 0.21686506}
+  m_Center: {x: 0.5979686, y: 1.1175522, z: 0.13519137}
+--- !u!95 &1651678388
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651678384}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac520bc9b7893674da2197aa625def65, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1701518316
 GameObject:
   m_ObjectHideFlags: 0
