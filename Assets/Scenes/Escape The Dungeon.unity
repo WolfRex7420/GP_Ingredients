@@ -46143,6 +46143,14 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.072
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923930166926693869, guid: 16efa409f7809d6499a20bf293c5df05, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.0634968
       objectReference: {fileID: 0}
@@ -46223,10 +46231,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 893b13c5033874188b8a664211b596ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionType: 2
+  interactionType: 1
   onlyOnce: 1
   requiredItem: {fileID: 11400000, guid: b205358823aa3d544894576ddd858f6c, type: 2}
-  waitForObject: 0
+  waitForObject: 1
 --- !u!135 &1651678386
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -46238,8 +46246,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.19
-  m_Center: {x: 0.5885581, y: 1.1175506, z: 0.048878536}
+  m_Radius: 1.2
+  m_Center: {x: 0.58, y: 1.12, z: 0.048}
 --- !u!65 &1651678387
 BoxCollider:
   m_ObjectHideFlags: 0
