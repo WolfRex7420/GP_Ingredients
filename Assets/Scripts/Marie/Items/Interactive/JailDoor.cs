@@ -8,6 +8,10 @@ public class JailDoor : Interactive
     //virtual makes the function changeable in children classes
     public override void OnInteraction()
     {
-        GetComponent<Animator>().SetTrigger("JailDoorOpen");
+        if (requiredItem)
+        {
+            GetComponent<Animator>().SetTrigger("JailDoorOpen");
+        }
+        GetComponent<Animator>().SetTrigger("Failed");
     }
 }
