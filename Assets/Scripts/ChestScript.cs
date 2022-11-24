@@ -15,6 +15,5 @@ public class ChestScript : Interactive
         //Activate Chest & Key
         GetComponent<Animator>().Play("Open Chest Lid");
         SilverKey.SetActive(true);
-        GetComponent<Animator>().SetTrigger("ChestOpened");
     }
 }

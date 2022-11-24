@@ -71,7 +71,6 @@ public class Inventory : MonoBehaviour
         {
             usableItems[objectInHand].gameObject.SetActive(false);
         }
-
         objectInHand = number;
         usableItems[objectInHand].gameObject.SetActive(true);
     }
