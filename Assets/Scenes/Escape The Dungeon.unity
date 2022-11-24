@@ -54027,22 +54027,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2107544523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540477658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 893b13c5033874188b8a664211b596ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionType: 1
-  onlyOnce: 1
-  requiredItem: {fileID: 11400000, guid: 1911d2671292a924e93728d46cb8a600, type: 2}
-  waitForObject: 0
 --- !u!135 &2107544524
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -54069,6 +54053,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2976079, y: 2.1197014, z: 0.11419717}
   m_Center: {x: 0.59342825, y: 1.1192064, z: -0.0000019971935}
+--- !u!114 &2107544526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540477658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e584d42d258191042943443edbc5c61b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 1
+  onlyOnce: 1
+  requiredItem: {fileID: 11400000, guid: 1911d2671292a924e93728d46cb8a600, type: 2}
+  waitForObject: 0
 --- !u!1001 &2114079352
 PrefabInstance:
   m_ObjectHideFlags: 0
