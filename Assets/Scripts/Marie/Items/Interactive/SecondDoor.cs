@@ -8,7 +8,7 @@ public class SecondDoor : Interactive
     //virtual makes the function changeable in children classes
     public override void OnInteraction()
     {
-        if (requiredItems)
+        if (requiredItem)
         {
             GetComponent<Animator>().SetTrigger("SecondDoorOpen");
         }

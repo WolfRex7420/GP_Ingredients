@@ -15987,7 +15987,6 @@ Transform:
   - {fileID: 1297414337}
   - {fileID: 1187424011}
   - {fileID: 534093579}
-  - {fileID: 829836282}
   - {fileID: 2107544518}
   m_Father: {fileID: 1384029697}
   m_RootOrder: -1
@@ -38191,65 +38190,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4250845954542789874, guid: d157978297aa03d40bfe76f9decb9828, type: 3}
   m_PrefabInstance: {fileID: 815284667}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &829836281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 829836282}
-  - component: {fileID: 829836284}
-  - component: {fileID: 829836285}
-  m_Layer: 0
-  m_Name: EndLevelDoor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &829836282
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829836281}
-  m_LocalRotation: {x: 0.55235314, y: 0.6202944, z: -0.339463, w: 0.44148126}
-  m_LocalPosition: {x: 3.8015003, y: -28.480804, z: 10.126301}
-  m_LocalScale: {x: 1.0508, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 221370053}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &829836284
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829836281}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.8767028, y: 4.2744117, z: 1.1747367}
-  m_Center: {x: -1.0145696, y: 0.685993, z: 0.67116886}
---- !u!114 &829836285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829836281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef34b2a7cc02f144d8f084da8e5d9d8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Menu
 --- !u!1001 &830326397
 PrefabInstance:
   m_ObjectHideFlags: 0

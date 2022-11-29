@@ -16,7 +16,7 @@ public class PlayerInteraction : MonoBehaviour
     private void Start()
     {
         _anim = GetComponent<PlayerInteractionAnim>();
-        _inventory = Inventory.Instance;
+        _inventory = GetComponent<Inventory>();
     }
 
     public void SetInteraction(InteractionType interaction)
@@ -50,7 +50,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void Interact()
     {
-        if (_inventory.HasEveryItem(_possibleInteractive.requiredItems))
+        if (_inventory.IsItemFound(_possibleInteractive.requiredItem))
         {
             _possibleInteractive.OnInteraction();
             if (_possibleInteractive.onlyOnce)
@@ -65,7 +65,7 @@ public class PlayerInteraction : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (!PlayerInteractionAnim.AnimationInProgress)
         {
@@ -78,9 +78,8 @@ public class PlayerInteraction : MonoBehaviour
             {
                 Interactive interactive = other.GetComponent<Interactive>();
                 //if interaction doesn't need key object or interaction key object is in inventory
-                bool hasRequiredItems = _inventory.HasEveryItem(interactive.requiredItems);
-                
-                if (!interactive.waitForObject || hasRequiredItems)
+                bool hasRequiredItem = _inventory.IsItemFound(interactive.requiredItem);
+                if (!interactive.waitForObject || hasRequiredItem)
                 {
                     _possibleInteractive = interactive;
                     SetInteraction(_possibleInteractive.interactionType);

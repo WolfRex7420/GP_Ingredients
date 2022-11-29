@@ -8,7 +8,7 @@ public class Inventory : MonoBehaviour
     public static Inventory Instance;
     
     private List<KeyItemData> _foundKeys = new List<KeyItemData>();
-    [SerializeField] private KeyItem usableItems;
+    [SerializeField] private List<KeyItem> usableItems;
     [SerializeField] private Transform hand;
 
     private int objectInHand = -1;
@@ -17,7 +17,7 @@ public class Inventory : MonoBehaviour
     {
         Instance = this;
     }
-   
+
     public void RemoveFromInventory(KeyItemData keyItem)
     {
         if (_foundKeys.Contains(keyItem))
@@ -71,7 +71,6 @@ public class Inventory : MonoBehaviour
         {
             usableItems[objectInHand].gameObject.SetActive(false);
         }
-
         objectInHand = number;
         usableItems[objectInHand].gameObject.SetActive(true);
     }
@@ -90,18 +89,5 @@ public class Inventory : MonoBehaviour
         //Empty ID means no necessary key item
         //true if the id is found in the list, false otherwise
         return key==null|| _foundKeys.Contains(key);
-    }
-
-    public bool HasEveryItem(List<KeyItemData> keys)
-    {
-        foreach (KeyItemData key in keys)
-        {
-            if (!IsItemFound(key))
-            {
-                return false;
-            }
-        }
-
-        return true;
     }
 }
