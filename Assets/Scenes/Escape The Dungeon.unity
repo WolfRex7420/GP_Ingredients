@@ -31931,6 +31931,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 3afb8732572259f48b225fe84c54f700, type: 3}
+--- !u!20 &510923800 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5827981052822675476, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+  m_PrefabInstance: {fileID: 1549616880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &516934027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39098,6 +39103,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5200681163901301247, guid: 6d74876d99d459743af39429f3ef69b5, type: 3}
   m_PrefabInstance: {fileID: 961679496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &965574997 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 3282215317461442014, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
+  m_PrefabInstance: {fileID: 9038126949266174308}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &973115500
 PrefabInstance:
@@ -46572,6 +46582,38 @@ PrefabInstance:
     - target: {fileID: 4948456307084849562, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 73.424225
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193466511680588591, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 510923800}
+    - target: {fileID: 5193466511680588591, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193466511680588591, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionId
+      value: 1a1506cd-6f2d-468b-a73a-21deeb162fc8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193466511680588591, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionId
+      value: a78bf29e-b907-40e5-a58f-21ce1908c4ae
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193466511680588591, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionId
+      value: 85796d16-ef36-4811-9dca-b61d1b861e3d
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193466511680588591, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionName
+      value: Menu/Switch[/Keyboard/rightArrow,/Keyboard/leftArrow]
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193466511680588591, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionName
+      value: Menu/Go[/Keyboard/space]
+      objectReference: {fileID: 0}
+    - target: {fileID: 5193466511680588591, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionName
+      value: Player/InventorySwitch[/Keyboard/tab]
       objectReference: {fileID: 0}
     - target: {fileID: 5324956851836741826, guid: 27b42d8653e2743da83063ad6fbb65a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -59613,6 +59655,30 @@ PrefabInstance:
     - target: {fileID: 3282215316559069486, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
       propertyPath: m_Center.z
       value: 0.000000018553653
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854807322094909157, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 965574997}
+    - target: {fileID: 3854807322094909157, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854807322094909157, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionId
+      value: 1a1506cd-6f2d-468b-a73a-21deeb162fc8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854807322094909157, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionId
+      value: a78bf29e-b907-40e5-a58f-21ce1908c4ae
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854807322094909157, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionName
+      value: Menu/Switch[/Keyboard/rightArrow,/Keyboard/leftArrow]
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854807322094909157, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionName
+      value: Menu/Go[/Keyboard/space]
       objectReference: {fileID: 0}
     - target: {fileID: 4940386464701476416, guid: 38e718841ba98f146ad16298c04eb904, type: 3}
       propertyPath: m_Materials.Array.data[0]
