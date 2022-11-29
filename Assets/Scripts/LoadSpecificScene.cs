@@ -6,12 +6,11 @@ public class LoadSpecificScene : MonoBehaviour
 {
     public string sceneName;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Player"))
         {
             SceneManager.LoadScene(sceneName);
-            //LoadAndSaveData.instance.SaveData();
         }
     }
 }
