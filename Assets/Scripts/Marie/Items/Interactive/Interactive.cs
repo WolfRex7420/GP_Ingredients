@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Interactive : MonoBehaviour
 {
-    public InteractionType interactionType = InteractionType.PushButton;
+    public InteractionType interactionType = InteractionType.OpenDoor;
     
     public bool onlyOnce = true;
 
@@ -12,13 +12,16 @@ public class Interactive : MonoBehaviour
     public KeyItemData requiredItem;
 
     public bool waitForObject;
-    
+
     //Basic behaviour for Interactive objects is to trigger an animation
     //virtual makes the function changeable in children classes
     public virtual void OnInteraction()
     {
-        Debug.LogWarning("This interaction has not been coded yet !");
-    }
+        if (requiredItem)
+        {
+            GetComponent<Animator>().SetTrigger("DoorOpen");
+        }
+        GetComponent<Animator>().SetTrigger("Failed");
 
-    
+    }
 }
